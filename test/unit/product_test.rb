@@ -58,4 +58,11 @@ class ProductTest < ActiveSupport::TestCase
     assert_equal 'has already been taken', product.errors[:title].join('; ')
   end
 
+  test 'title must contain more than 10 signs' do
+    product = products(:ruby)
+    product.title = 'short'
+    assert product.invalid?
+    assert_equal 'must be more than 10 signs', product.errors[:title].join('; ')
+  end
+
 end
