@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.4, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-ui-rails (v4.0.4, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.5.4, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, RVM: ruby-1.9.3-p362 [Rails3.2.13_DemoAgileRails]) [gem]" level="application" />
