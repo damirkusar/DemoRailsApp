@@ -1,4 +1,12 @@
 Depot::Application.configure do
+  Depot::Application.configure do config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { address: "smtp.gmail.com",
+                                         port: 587,
+                                         domain: "depot.kusar.ch", authentication: "plain",
+                                         user_name: "stabskp.elz", password: "schoetz2013", enable_starttls_auto: true
+  }
+  end
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on

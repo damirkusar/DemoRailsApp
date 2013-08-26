@@ -40,3 +40,5 @@ gem 'jquery-ui-rails'
 
 gem 'test-unit'
 gem 'ruby-prof'
+
+gem 'will_paginate', '~> 3.0'

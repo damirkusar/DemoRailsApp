@@ -12,8 +12,8 @@ class StoreControllerTest < ActionController::TestCase
 
   test "markup needed for store.js.coffee is in place" do
     get :index
-    assert_select '.store .entry > img', 3
-    assert_select '.entry input [type=submit]', 3
+    assert_select '.store .entry > img',     1
+    assert_select '.entry input [type=submit]', 1
   end
 
 end
